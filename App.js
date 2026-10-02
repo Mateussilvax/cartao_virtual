@@ -29,11 +29,11 @@ export default function App() {
 
     const intervalo = setInterval(() => {
       const mensagens = [
-        'Futebol ás 11h:00',
-        'Academia 15h:00',
-        'Burguer  King pós aula',
-        'Kart esse fim de semana',
-        'Passear com a cachorra',
+        'Bom dia',
+        'boa tarde',
+        'boa noite',
+        'boa semana',
+        'bom fim de semana',
       ];
 
       const mensagemAleatoria =
@@ -64,12 +64,12 @@ export default function App() {
       <ScrollView contentContainerStyle={styles.scroll}>
         
         <Image
-          source={require('./assets/avatar.png')}
+          source={require('./assets/avatar.jpeg')}
           style={styles.avatar}
         />
 
         <Text style={styles.nome}>
-          João Teixeira
+          Mateus Silva Xavier
         </Text>
 
         <View style={styles.secao}>
